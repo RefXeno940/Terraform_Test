@@ -1,3 +1,6 @@
+#----------------------------------------------------------------------------
+#Cambio rapido para verificar que se pueden actualizar los arhcivos en github
+#----------------------------------------------------------------------------
 
 resource "aws_instance" "Servidor-Linux-Terraform" {
   ami           = var.ami
